@@ -1,0 +1,65 @@
+/*
+Copyright (c) Spyridon Marinis Artelaris, All rights reserved.
+
+This file is part of LimeCMS.
+
+LimeCMS is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3.0 of the License, or (at your option) any later version.
+
+LimeCMS is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with LimeCMS.
+*/
+.upload-container {
+	border: 1px solid #bfbfbf;
+	margin:0;
+	padding:5px	
+}
+#gallery {
+	-webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing:border-box;    /* Firefox, other Gecko */
+	box-sizing:border-box;         /* Opera/IE 8+ */
+	margin:3em auto;
+	padding:0;
+	width:80%
+}
+.ui-widget {
+    font-family:'Roboto',sans-serif;
+    font-size: 1em;
+}
+.ui-widget-content {
+	background: none repeat scroll 0 0 rgba(233, 233, 233, 0.7) !important;
+    border: none !important;
+    color: #333;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+}
+.ui-tabs {
+    padding: 0.1em !important;
+    position: relative;
+}
+.gallery-input[type="submit"] {
+  background:#e5e6e4;
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#e5e6e4),color-stop(0%,#e5e6e4),color-stop(100%,#32cd32));
+  background:-moz-linear-gradient(top,#e5e6e4 0%,#e5e6e4 0%,#32cd32 100%);
+  background:-webkit-linear-gradient(top,#e5e6e4 0%,#e5e6e4 0%,#32cd32 100%);
+  background:-o-linear-gradient(top,#e5e6e4 0%,#e5e6e4 0%,#32cd32 100%);
+  background:-ms-linear-gradient(top,#e5e6e4 0%,#e5e6e4 0%,#32cd32 100%);
+  background:linear-gradient(top,#e5e6e4 0%,#e5e6e4 0%,#32cd32 100%);
+  border:solid 1px #bfbfbf;
+  border-radius:5px;
+  color:#fff;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e6e4',endColorstr='#32cd32',GradientType=0);
+  font-size:18px;
+  moz-border-radius:5px;
+  padding:3px 15px
+}

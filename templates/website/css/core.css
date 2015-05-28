@@ -1,0 +1,73 @@
+@import "nav.css";
+@import "page.css";
+@import "theme.css";
+@import "login.css";
+@import "listart.css";
+
+/* Media screen tags
+ This query will take effect for any screen smaller than 760px
+ * */
+@media only screen and (max-width: 760px) , (min-device-width: 768px) and (max-device-width: 1024px) {
+	#navigation {
+		height: auto;
+	}
+	#navigation ul {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	#navigation li {
+		width: 50%;
+		float: left;
+		position: relative;
+	}
+	#navigation li a {
+		border-bottom: 1px solid #A39F7E;
+		border-right: 1px solid #A39F7E;
+	}
+	#navigation ul li:last-child a {
+		border-right: 1px solid #A39F7E;
+	}
+	#navigation a {
+		text-align: left;
+		width: 100%;
+		text-indent: 25px;
+	}
+	.video-wrapper {max-width: 100%;width: 100%}
+	#content pre {
+	  margin:0;
+	  padding:2px;
+	  max-width:100%;
+	  width: 100%
+	}
+}
+/*
+ *  This query will take effect for any screen smaller than 480px
+ */
+@media only screen and (max-width: 480px) {
+	#navigation {
+		border-bottom: 0;
+	}
+	#navigation ul {
+		display: none;
+		height: auto;
+	}
+	#navigation a#pull {
+		border-right: 0;
+		display: inline-block;
+		/* W3C Markup, IE10 Release Preview */
+		background-image: linear-gradient(to bottom, #FFF6E2 0%, #C2BBAC 100%);
+		width: 100%;
+		position: relative;
+	}
+	#navigation a#pull:after {
+		content: " ";
+		background: url('../images/nav-icon.png') no-repeat;
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}

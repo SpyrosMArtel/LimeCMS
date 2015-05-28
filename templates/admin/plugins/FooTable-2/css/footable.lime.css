@@ -1,0 +1,106 @@
+.footable {
+    background: none repeat scroll 0 0 #E5E4E2;
+    border-collapse: separate;
+    border-radius: 0;
+    border-spacing: 0;
+    color: #444444;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    width: 100%;
+}
+.footable.breakpoint > tbody > tr.footable-row-detail {
+    background: none repeat scroll 0 0 #eeeeee;
+}
+.footable.breakpoint > tbody > tr:hover:not(.footable-row-detail) {
+    cursor: pointer;
+}
+.footable.breakpoint > tbody > tr > td.footable-row-detail-cell {
+    background: none repeat scroll 0 0 #fff;
+}
+.footable > tbody img {
+    vertical-align: middle;
+}
+.footable > tbody > tr:hover:not(.footable-row-detail) {
+    background: none repeat scroll 0 0 #dddddd;
+}
+.footable > tbody > tr:hover:not(.footable-row-detail) > td {
+    color: #000000;
+}
+.footable > tbody > tr:last-child > td {
+    border-bottom: medium none;
+}
+.footable > tbody > tr > td {
+    border-left: medium none;
+    border-top: 1px solid #c9c9c9;
+    padding: 5px;
+    text-align: left;
+}
+.footable > tbody > tr > td.footable-row-detail-cell, .footable > tbody > tr > td.footable-first-column {
+    border-left: medium none;
+}
+.footable > thead > tr > th {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+.footable > thead > tr > th, .footable > thead > tr > td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #191919;
+    border-color: -moz-use-text-color #e5e4e2 #e5e4e2 -moz-use-text-color;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    color: #ffffff;
+    font-weight: normal;
+}
+.footable > thead > tr > th.footable-first-column, .footable > thead > tr > td.footable-first-column {
+    border-left: medium none;
+}
+.footable > tfoot > tr > th, .footable > tfoot > tr > td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #333;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    color: #ffffff;
+    padding: 5px;
+}
+.footable > tfoot .pagination {
+    text-align: center;
+}
+.footable > tfoot .pagination ul {
+    box-shadow: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.footable > tfoot .pagination ul > li {
+    display: inline;
+}
+.footable > tfoot .pagination ul > li > a, .footable > tfoot .pagination ul > li > span {
+    background: none repeat scroll 0 0 transparent;
+    border: 2px solid transparent;
+    color: #ffffff;
+    float: left;
+    margin: 0 3px;
+    padding: 1px 5px;
+    text-decoration: none;
+}
+.footable > tfoot .pagination ul > li.disabled > a {
+    color: #888;
+}
+.footable > tfoot .pagination ul > li.active > a {
+    border-color: #ffffff;
+}
+.footable > tfoot .pagination ul > li:first-child > a, .footable > tfoot .pagination ul > li:last-child > a, .footable > tfoot .pagination ul > li:first-child > span, .footable > tfoot .pagination ul > li:last-child > span {
+    border-radius: 0;
+}
+.footable-odd {
+    background-color: #f7f7f7;
+}

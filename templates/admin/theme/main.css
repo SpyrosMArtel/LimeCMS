@@ -1,0 +1,132 @@
+/*
+Copyright (c) Spyridon Marinis Artelaris, All rights reserved.
+
+This file is part of LimeCMS.
+
+LimeCMS is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3.0 of the License, or (at your option) any later version.
+
+LimeCMS is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with LimeCMS.
+*/
+@import "normalize.css";
+@import "header.css";
+@import "admin_theme.css";
+@import "login.css";
+@import "user_details.css";
+
+@import "../plugins/markitup/skins/markitup/style.css";
+@import "../plugins/markitup/sets/html/style.css";
+@import "../plugins/FooTable-2/css/footable.core.css";
+@import "../plugins/FooTable-2/css/footable.lime.css";
+
+html {
+  font-family: 'PT Sans', sans-serif;
+  min-height: 100%;
+  position: relative
+}
+body {
+  background-image: -ms-radial-gradient(center top, circle closest-corner, #64DB64 0%, #1B651B 100%);
+  background-image: -moz-radial-gradient(center top, circle closest-corner, #64DB64 0%, #1B651B 100%);
+  background-image: -o-radial-gradient(center top, circle closest-corner, #64DB64 0%, #1B651B 100%);
+  background-image: -webkit-gradient(radial, center top, 0, center top, 487, color-stop(0, #64DB64), color-stop(1, #1B651B));
+  background-image: -webkit-radial-gradient(center top, circle closest-corner, #64DB64 0%, #1B651B 100%);
+  background-image: radial-gradient(circle closest-corner at center top, #64DB64 0%, #1B651B 100%);
+  background-attachment: fixed;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+.markItUp {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.markItUpEditor {
+  -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+  box-sizing: border-box !important; /* Opera/IE 8+ */
+  border: 3px solid #239023;
+  display: block !important;
+  width: 100% !important;
+}
+.footable a {
+  -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+  box-sizing: border-box !important; /* Opera/IE 8+ */
+  -webkit-box-shadow: inset 0 0 2px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: inset 0 0 2px 0px rgba(0, 0, 0, 0.48);
+  box-shadow: inset 0 0 2px 0px rgba(0, 0, 0, 0.48);
+  background-color: #c9c9c9;
+  color: #333;
+  font-size: 0.75em;
+  margin: 0 4px;
+  padding: 3px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #999;
+  text-transform: uppercase;
+}
+.footable a:hover {
+  text-decoration: underline
+}
+/* Media stuff */
+@media only screen and (max-width: 480px) {
+  .login {width:90%}
+  #uef-container{width:100% !important}
+}
+@media only screen and (max-width: 720px) {
+  #content {
+    -webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing:border-box; /* Firefox, other Gecko */
+    box-sizing:border-box; /* Opera/IE 8+ */
+    display:block;
+    margin:10px;
+    padding:2px
+  }
+  #uef-container{width:85%}
+  #nav-mobile {display:block}
+  #gallery {width: 100%}
+  .navbar-left {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%
+  }
+  .navbar-left ul {display: none}
+  .navbar-left li {
+    display: inline-block;
+    width: 49.4%
+  }
+  .navbar-left li:last-child {
+    border-bottom: 1px solid #9f9f9f
+  }
+  .logo {
+    display: none;
+    margin: 2px
+  }
+  .af-container {width: 100% !important}
+  .right {float: left !important}
+  .login {width: 50%}
+}
+@media only screen and (min-width: 1000px) {
+  .af-container {
+    height: 100% !important;
+    width: 85% !important
+  }
+}

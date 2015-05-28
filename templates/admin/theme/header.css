@@ -1,0 +1,115 @@
+/*
+Copyright (c) Spyridon Marinis Artelaris, All rights reserved.
+
+This file is part of LimeCMS.
+
+LimeCMS is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3.0 of the License, or (at your option) any later version.
+
+LimeCMS is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with LimeCMS.
+*/
+#pageWrapper {
+	position:relative;
+	padding:0;
+}
+/* Navigation bar styling*/
+.logo {
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+  padding:0 0 50px 0;
+  opacity: 0.7
+}
+.navbar-left * {
+  -webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing:border-box;    /* Firefox, other Gecko */
+  box-sizing:border-box;         /* Opera/IE 8+ */
+}
+.navbar-left {
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNYsWLFTAAGhgKSTf2yuAAAAABJRU5ErkJggg==) repeat;
+  -webkit-box-shadow:1px 0px 2px 0px rgba(30, 30, 30, 0.44);
+  -moz-box-shadow:1px 0px 2px 0px rgba(30, 30, 30, 0.44);
+  box-shadow:1px 0px 2px 0px rgba(30, 30, 30, 0.44);
+  -webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing:border-box;    /* Firefox, other Gecko */
+  box-sizing:border-box;         /* Opera/IE 8+ */
+  height:100%;
+  margin:0;
+  padding:8px;
+  position:fixed;
+  width:142px
+}
+.navbar-left ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:100%
+}
+.navbar-left li {
+  border-radius:4px;
+  border-bottom:1px solid #9f9f9f;
+  color: #333;
+  display:inline-block;
+  margin:0 0 2px 0;
+  width:100%
+}
+.navbar-left li:last-child {
+  border:none;
+}
+.navbar-left li:hover {
+    background-color:rgba(50,205,50, .72);
+    transition: background-color 0.3s linear 0.05s;
+}
+.navbar-left li a {
+  color:#444;
+  cursor:pointer;
+  display: block;
+  font-weight: normal;
+  font-size:1em;
+  line-height: 2.4em;
+  height: 100%;
+  text-decoration: none;
+  width:auto
+}
+.navbar-left li a img {
+  display: block;
+  float:left;
+  margin:0;
+  padding: 3px 8px 3px 3px
+}
+.navbar-left li a:hover { color: #fff }
+#content {
+  -webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing:border-box;    /* Firefox, other Gecko */
+  box-sizing:border-box;         /* Opera/IE 8+ */
+  display:block;
+  margin: 0 2em 0 10em;
+  padding:10px
+}
+#nav-mobile {
+  background-color:#191919;
+  -webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing:border-box;    /* Firefox, other Gecko */
+  box-sizing:border-box;         /* Opera/IE 8+ */
+  display:none;
+  height:32px;
+  margin:0;
+  padding:0;
+  text-align:center;
+  width:100%
+}
+#resp-nav:after { content:"\25B2"}
+#resp-nav {
+  color:#e5e4e2;
+  display:block;
+  height:100%;
+  line-height:1.7em;
+  text-decoration:none;
+  width:100%
+}

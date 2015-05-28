@@ -1,0 +1,164 @@
+/*
+Copyright (c) Spyridon Marinis Artelaris, All rights reserved.
+
+This file is part of LimeCMS.
+
+LimeCMS is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3.0 of the License, or (at your option) any later version.
+
+LimeCMS is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with LimeCMS.
+*/
+/* User edit form (uef)*/
+#uef-container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#uef-container {
+  padding: 0;
+  margin: 0 auto;
+  width: 40%
+}
+.uef-form {
+  background: none repeat scroll 0 0 #FFF;
+  border: 1px solid #9BA0AF;
+  border-radius: 5px;
+  height: auto;
+  margin: 15px;
+  width: auto
+}
+.uef-form header {
+  background: #FFF;
+  background: -moz-linear-gradient(top,white,#f3f3f3);
+  background: -o-linear-gradient(top,white,#f3f3f3);
+  background: -webkit-linear-gradient(top,white,#f3f3f3);
+  background: linear-gradient(top,#fff,#f3f3f3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white',endColorstr='#f3f3f3',GradientType='0');
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 32px
+}
+.uef-form header h3 {
+  color: #1F1F20;
+  font-size: 1.1em;
+  margin: 8px 20px;
+  text-shadow: 0 1px 0 #FFF;
+  text-transform: uppercase;
+  width: 100%
+}
+.uef_content {
+  color: #666;
+  margin: 10px 20px
+}
+.uef-fieldset {
+  background: none repeat scroll 0 0 #F0F0F0;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 0
+}
+.uef-label {/* .uef-label */
+  display: block;
+  float: left;
+  font-weight: bold;
+  line-height: 25px;
+  margin: -5px 0 5px;
+  padding-left: 10px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-transform: uppercase
+}
+.uef-label > em {
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 1px 0 #FFF
+}
+.uef-input[type="text"], .uef-input[type="password"] {
+  border: 1px solid #BBB;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #CCC inset, 0 1px 0 #FFF;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: block;
+  float: left;
+  height: 25px;
+  margin: 0 3% 3%;
+  padding-left: 10px;
+  width: 90%
+}
+.uef-fieldset .userTextArea {
+  background-position: 10px 6px;
+  border: 1px solid #BBB;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #CCC inset, 0 1px 0 #FFF;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  float: left;
+  margin: 0 10px;
+  padding-left: 10px;
+  width: 96%
+}
+.uef-selrole {
+  border: 1px solid #BBB;
+  height: 20px;
+  margin: 0 10px 10px 10px;
+  width: 96%
+}
+.uef-footer {
+  background: #FFF;
+  background: -moz-linear-gradient(top,white,#f3f3f3);
+  background: -o-linear-gradient(top,white,#f3f3f3);
+  background: -webkit-linear-gradient(top,white,#f3f3f3);
+  background: linear-gradient(top,#FFF,#f3f3f3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white',endColorstr='#f3f3f3',GradientType='0');
+  border-top: 1px solid #9CA1B0;
+  height: 32px;
+  width: 100%
+}
+.uef-subcon {
+  float: right;
+  margin-right: 3%;
+  padding: 5px 0
+}
+.uef-subcon select {
+  border: 1px solid #BBB;
+  height: 20px;
+  width: 150px
+}
+.uef-inputsubart[type="submit"] {
+  background: url("../images/btn_submit_2.png") repeat-x scroll 0 0 #D0D1D4;
+  border: 1px solid #30B0C8;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 #FFF;
+  color: #003E49;
+  cursor: pointer;
+  font-weight: bold;
+  height: 22px;
+  padding: 0 10px;
+  text-shadow: 0 1px 0 #6CDCF9
+}
+
+.uef-inputsubcan[type="submit"] {
+  background: url("../images/btn_submit.png") repeat-x scroll 0 0 #D0D1D4;
+  border: 1px solid #A8A9A8;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 #FFF;
+  cursor: pointer;
+  font-weight: bold;
+  height: 22px;
+  padding: 0 10px;
+  text-shadow: 0 1px 0 #FFF
+}

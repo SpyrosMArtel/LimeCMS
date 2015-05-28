@@ -1,0 +1,59 @@
+#navigation {
+	height: 40px;
+	width: 99.1%;
+	margin: 0 auto;
+	padding: 0.2em;
+	/* W3C Markup, IE10 Release Preview */
+	background-image: linear-gradient(to bottom, #FFF6E2 0%, #C2BBAC 100%);
+	font-size: 11pt;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-weight: bold;
+	position: relative;
+	border-bottom: 2px solid #2C001E;
+}
+#navigation ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 500px;
+	height: 40px;
+}
+#navigation ul li {
+	display: inline-block;
+	float: left;
+}
+#navigation a {
+	vertical-align: middle;
+	color: #333333;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow: 1px 1px 0px #DBD2AB;
+	border-right: 1px solid #A39F7E;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#navigation img {
+	vertical-align: middle;
+}
+#navigation ul li:last-child a {
+	border-right: 0;
+}
+#navigation a:hover, a:active {
+	background-color: #C23F12;
+}
+#navigation a#pull {
+	display: none;
+}
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
